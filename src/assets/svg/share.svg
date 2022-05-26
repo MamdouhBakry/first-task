@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg  width="5px" height="14px"  viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
+ <path fill='#DFAD37' d="M15.91 4.66l-6.1 4.3c-.13.09-.23.04-.23-.11V6.13c-1.72-.01-5.47-.06-6.57 2.45.08-5.17 5.29-5.87 6.57-5.97V.16c0-.15.11-.2.23-.11l6.11 4.29c.13.09.13.23 0 .32z"/>
+ <path fill='#DFAD37' d="M0 2.67h2V12H0z"/>
+ <path fill='#DFAD37' d="M0 1h5v2H0z"/>
+ <path fill='#DFAD37' d="M0 11h13v2H0z"/>
+</svg>

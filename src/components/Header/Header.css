@@ -1,0 +1,58 @@
+.header{
+    height:6rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    background-image: url("../../assets/images/BIFBJAA.jpg");
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-position-y:center;
+    color:#fff;
+    padding:1rem;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right-side .header-title , .right-side .breadcrumb{
+    display: flex;
+    align-items: center;
+}
+.left-side{
+    display: flex;
+    width:35%;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-side .user{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.left-side .user .img-circle{
+    width:50px;
+    border-radius: 50%;;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.left-side .user .arrow{
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin-top: 1rem;
+}
+.left-side .user .arrow:hover{
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #dfad37;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin-top: 1rem;
+}
+.left-side .pi-bell{
+    font-size: 2rem;
+}

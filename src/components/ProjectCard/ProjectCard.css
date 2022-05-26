@@ -1,0 +1,73 @@
+
+.project-card{
+    background-color:#fff;
+    margin: 1rem 1rem;
+    width:20rem;
+    height:12rem;
+    padding:2rem;
+    border-radius:10px;
+}
+.project-card:hover{
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.card-header{
+    display:flex;
+    flex-direction: column;
+    height:20%;
+}
+.card-header .card-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-title h3{
+   position:relative;
+}
+.card-title h3::before{
+    content:"";
+    width:20px;
+    height:20px;
+    background-color:goldenrod;
+    position: absolute;
+    right: -22px;
+    top: 3px;
+}
+.card-body{
+    padding-right: 1rem;
+    color:#72bda5;
+    height:70%;
+    display: flex;
+    align-items: center;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-evenly;
+    height:20%;
+}
+.card-footer .users{
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+    color:blue;
+    align-items: center;
+}
+.card-footer .modifications {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: #f9b8b4;
+    align-items: center;
+}
+.card-footer .action{
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f9f2;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}

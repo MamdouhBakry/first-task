@@ -1,0 +1,109 @@
+
+/* header style */
+.project-management-header{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem
+}
+.project-management-header 
+.title-search-side{
+    display: flex;
+    width:55%;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+.project-management-header
+.title-search-side
+.title{
+    color:#008941;
+
+}
+.project-managements .project-management-header .fiter-category-newpro-side {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.project-management-header
+.fiter-category-newpro-side
+.filter, .category {
+    display: flex;
+    position:relative;
+    cursor: pointer;
+}
+.project-management-header .fiter-category-newpro-side .filter .filterline{
+    width:2rem;
+    height:2px;
+    background-color:green;
+    position:absolute;
+    top:19px;
+    right:20px;
+    display:none;
+}
+.project-management-header .fiter-category-newpro-side .category .categoryline{
+    width: 3rem;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    display:none
+}
+.project-management-header 
+.fiter-category-newpro-side
+.filter:hover .filterline{
+    display:block;
+    cursor: pointer;
+}
+.project-management-header 
+.fiter-category-newpro-side 
+.category:hover .categoryline{
+    display: block;
+    cursor: pointer;
+}
+.project-management-header
+.fiter-category-newpro-side
+.new-project{
+    background-color:rgb(40, 219, 40);
+    border:0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding:.5rem;
+    color:#fff;
+    font-weight: bold;
+}
+.project-management-header .fiter-category-newpro-side .new-project:hover{
+    background-color:#008941;
+}
+
+
+
+
+
+.top-left-section {
+    width: 290px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 35%;
+}
+.search-doc {
+    border: 2px #a39898 solid;
+    padding: 15px;
+    padding-right: 20%;
+    width: 90%;
+    height: 15px;
+    border-radius: 6px;
+}
+
+.search-icon {
+    height: 20px;
+    width: 40px;
+    padding-right: 13px;
+    margin-right: 10px;
+    position: absolute;
+}
